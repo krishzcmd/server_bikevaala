@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://softstrikers.visualstudio.com/TAGXI/_git/server-app
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "private"]
+	url = https://github.com/MI-Soft/Tagxi-Server-App.git
+	fetch = +refs/heads/*:refs/remotes/private/*
